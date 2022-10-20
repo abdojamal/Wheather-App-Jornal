@@ -1,0 +1,136 @@
+/*i did some simple changes into CSS style */
+body{
+    background: linear-gradient(0deg, skyblue 0%, rgb(29, 119, 155) 80%);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#app{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.holder{
+    color: #444;
+
+}
+
+.entry{
+    margin: 50px auto;
+    border-radius: 50px;
+    height: 200px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #020201;
+}
+
+#zip{
+    color: rgb(251, 254, 255);
+    background:#000 ;
+    margin: 60px auto 0px;
+    width: auto;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: white 2px;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    resize: none;
+    
+}
+#content{
+    grid-column: 1 / -1;
+  }
+  #temp{
+    font-size: 4vw;
+  }
+
+#date{
+    color: #000;
+
+}
+
+#temp{
+    color: #000;
+
+}
+
+
+.headline {
+    color: whitesmoke;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+
+
+button{
+    width: 220px;
+    height: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(36, 133, 133);
+
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:silver;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    height: 100px;
+    border: none;
+    text-align: center;
+    resize: none;
+    box-shadow: 3px 3px 5px 5px rgb(51, 50, 50);
+    border-radius: 5px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #0f0e0a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #0f0f0b; 
+    font-family: 'Oswald', sans-serif;
+
+} 
